@@ -1,0 +1,29 @@
+@import '../../variables';
+
+.breadcrumb {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-bottom: $shoppie__gridunit * 2;
+
+  li {
+    list-style-type: none;
+
+    a {
+      padding-right: $shoppie__gridunit;
+      color: $shoppie-color__accent;
+    }
+
+    i {
+      padding-right: $shoppie__gridunit;
+    }
+
+    span {
+      white-space: nowrap;
+      display: flex;
+      overflow: hidden;
+      max-width: 300px;
+      text-overflow: ellipsis;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import '../../variables';
+
+:host {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: $shoppie-color__light-grey;
+
+  .sidebar {
+    &__bottom {
+      padding: $shoppie__gridunit * 2;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      a {
+        color: $shoppie-color__accent;
+      }
+    }
+
+    &__nav {
+      list-style-type: none;
+      width: 100%;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+
+      a {
+        display: flex;
+        color: $shoppie-color__accent;
+        text-decoration: none;
+        padding: $shoppie__gridunit $shoppie__gridunit * 2;
+      }
+
+      &-item {
+        &--active {
+          background: #fff;
+        }
+      }
+    }
+  }
+}

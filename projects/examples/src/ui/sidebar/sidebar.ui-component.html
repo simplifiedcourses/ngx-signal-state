@@ -1,0 +1,17 @@
+<ul class="sidebar__nav">
+  <li>
+    <a routerLink="">Products</a>
+  </li>
+  <li *ngFor="let category of categories">
+    <a
+      [routerLink]="['/categories', category.id]"
+      routerLinkActive="sidebar__nav-item--active"
+      >{{category.name}}</a
+    >
+  </li>
+</ul>
+
+<div class="sidebar__bottom">
+  This application is powered by
+  <a href="https://simplified.courses">https://simplified.courses</a>
+</div>

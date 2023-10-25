@@ -1,0 +1,163 @@
+{
+  "products": [
+    {
+      "name": "Apple iPhone 14 256GB Midnight + Apple USB-C Charger 20",
+      "price": 1690,
+      "description": "With the Apple iPhone 14 256GB Midnight + Apple USB-C Charger 20W bundle, you can fast charge your new iPhone. The Apple iPhone 14 is a real all-rounder. With the improved standard and wide-angle lens, you can take even sharper photos than its predecessor, the Apple iPhone 13. In addition, the TrueDepth selfie camera has autofocus. This means it'll focus on your face faster. And the image remains sharp if you move during video calls, for example. Even when there's not a lot of light. Thanks to the powerful A15 Bionic chip and 4GB RAM, you can quickly edit all your photos and multitask any way you want. You can store your photos and apps on the 256GB storage. With the special Action Mode, all your videos remain stable when you record something while you move around a lot. On the 6.1-inch OLED screen, you can watch all your favorite movies and series in high quality. Want more screen space? Choose the iPhone 14 Plus.",
+      "advice": "We advice you to try this product",
+      "id": 1,
+      "categoryId": 1,
+      "quantity": 22
+    },
+    {
+      "name": "Apple AirPods 2 with charging case",
+      "price": 139,
+      "description": "With Apple AirPods 2 with Charging Case, you can address Siri without touching your earbuds. This now works via voice commands, like with the iPhone. The earbuds turn on automatically when you put them in your ears and pause when you take them out. You can charge the charging case with the included Lightning to USB charging cable. With a full battery, you can use the AirPods to listen to music for 5 hours. When you add the battery of the charging case, you can listen to your favorite songs for 24 hours.",
+      "advice": "",
+      "categoryId": 3,
+      "id": 2,
+      "quantity": 7
+    },
+    {
+      "name": "Bowers & Wilkins PX7 S2 Black",
+      "price": 422,
+      "description": "With the Bowers & Wilkins PX7 S2, you can enjoy high-end sound quality, even in the most noisy areas. These headphones have high-end noise canceling, which reduces the ambient noise a lot. Do you start a call with someone? The music pauses automatically when you take off the headphones. If you put the headphones back on your head, the music continues. In the Bowers & Wilkins Headphones app, you can customize the sound reproduction via an equalizer.",
+      "advice": "",
+      "id": 3,
+      "categoryId": 3,
+      "quantity": 40
+    },
+    {
+      "name": "Samsung QLED 55Q80A",
+      "price": 779,
+      "description": "With the Samsung QLED 55Q80A (2021), you watch colorful and high-contrast images. This television has a high brightness and rich color representation thanks to the QLED screen. As a result, subtle color tones in images of a blue sky or cloud field are clearly visible as well. Combined with the Full Array Local Dimming, the QLED screen provides a strong contrast. That means there's a significant difference between the darkest parts of the image and the brightest parts, so shadows are truly dark and light objects stand out against a dark background. For example, a clear moon against a black sky. Thanks to Adaptive Picture, the TV adjusts the image to your viewing situation. Are you watching a dark movie during the day with the curtains open? ",
+      "advice": "",
+      "id": 5,
+      "categoryId": 4,
+      "quantity": 6
+    },
+    {
+      "name": "Samsung Neo QLED 8K 75QN900B (2022) + Soundbar",
+      "price": 7769,
+      "description": "With the Samsung Neo QLED 8K 75QN900B (2022) and HW-Q990B Soundbar, you can create your own home cinema. Thanks to the 8K resolution, every detail is razor sharp. For example, you can easily distinguish people in the audience at a soccer match or the hair of a tiger in a nature documentary. The smart Neo AI Quantum Processor 8K upscales the image to the 8K resolution when you watch images in 4K. Neo QLED technology provides strong contrast and vivid colors. Thousands of LED lights are individually controlled, which makes dark areas of the screen truly dark and bright areas very bright. The quantum dots provide a bright color reproduction and a wide color gamut. So you see every subtle hue in for example a blue sky. Connect all your peripherals to the Slim One Connect Box with a sleek design.",
+      "advice": "",
+      "id": 6,
+      "categoryId": 4,
+      "quantity": 6
+    },
+    {
+      "name": "OnePlus Nord 2T 256GB Gray 5G",
+      "price": 469,
+      "description": "The OnePlus Nord 2T 256GB Gray 5G is a powerful mid-range smartphone that's very fast with average use. For example, you can quickly switch between your apps like Instagram, Spotify, and YouTube. There are 3 cameras at the back which can take decent photos. With the wide-angle lens, you can fit tall buildings or your whole family on the photo. You can store your photos on the 256GB storage, together with all your apps, music, and movies. The 4500mAh battery lasts the whole day with average use. You'll also get a 80W fast charger. This allows you to fully charge the Nord 2T within half an hour. You'll never have to go out with an empty battery. On the 6.43-inch Full HD screen, you can see many details of your videos, movies, and series. This screen refreshes 90 times per second, so the movements look smooth when you scroll.",
+      "advice": "",
+      "categoryId": 1,
+      "id": 7,
+      "quantity": 3
+    },
+    {
+      "name": "Apple iPhone SE 2022 64GB Black",
+      "price": 559,
+      "description": "The Apple iPhone SE 2022 64GB Black has a powerful A15 Bionic Chip. As a result, you can multitask without the device slowing down and you can effortlessly use the most demanding apps. You can also connect via 5G with this iPhone. That way, you have a fast and stable connection in busy places as well. You can only take advantage of this with a SIM card that has a 5G mobile data plan. Don't have one? The iPhone SE 2022 is also suitable for 4G. On the 64GB storage, you have limited space for your favorite apps and photos. Do you want more storage space? Choose the 128 or 256GB version. Thanks to Smart HDR 4 and Deep Fusion, you can take better photos with the 12-megapixel camera than with its predecessor. You unlock the device with your fingerprint via the Touch ID home button.",
+      "advice": "",
+      "categoryId": 1,
+      "id": 11,
+      "quantity": 3
+    },
+    {
+      "name": "Logitech M330 Silent Wireless Mouse Black",
+      "price": 29.99,
+      "description": "You'll no longer be distracted by clicking sounds with the Logitech M330 Silent Wireless Mouse. This mouse has silent buttons with rubber switches that muffle the sound. A click will make 90% less noise compared to a standard mouse while maintaining the familiar clicking motion. Connect the USB nano receiver to your laptop or PC and immediately connect wirelessly to the mouse. Constantly changing the batteries is a thing of the past, because the mouse will work up to 24 months on a single battery. Aren't using the mouse? You don't have to switch it off; the M330 will automatically switch to sleep mode until you use it again.",
+      "advice": "",
+      "id": 12,
+      "quantity": 3
+    },
+    {
+      "name": "Apple iPhone 14 256GB Midnight + Apple USB-C Charger 20",
+      "price": 1690,
+      "description": "With the Apple iPhone 14 256GB Midnight + Apple USB-C Charger 20W bundle, you can fast charge your new iPhone. The Apple iPhone 14 is a real all-rounder. With the improved standard and wide-angle lens, you can take even sharper photos than its predecessor, the Apple iPhone 13. In addition, the TrueDepth selfie camera has autofocus. This means it'll focus on your face faster. And the image remains sharp if you move during video calls, for example. Even when there's not a lot of light. Thanks to the powerful A15 Bionic chip and 4GB RAM, you can quickly edit all your photos and multitask any way you want. You can store your photos and apps on the 256GB storage. With the special Action Mode, all your videos remain stable when you record something while you move around a lot. On the 6.1-inch OLED screen, you can watch all your favorite movies and series in high quality. Want more screen space? Choose the iPhone 14 Plus.",
+      "advice": "We advice you to try this product",
+      "id": 11,
+      "categoryId": 1,
+      "quantity": 22
+    },
+    {
+      "name": "Apple AirPods 2 with charging case",
+      "price": 139,
+      "description": "With Apple AirPods 2 with Charging Case, you can address Siri without touching your earbuds. This now works via voice commands, like with the iPhone. The earbuds turn on automatically when you put them in your ears and pause when you take them out. You can charge the charging case with the included Lightning to USB charging cable. With a full battery, you can use the AirPods to listen to music for 5 hours. When you add the battery of the charging case, you can listen to your favorite songs for 24 hours.",
+      "advice": "",
+      "categoryId": 3,
+      "id": 12,
+      "quantity": 7
+    },
+    {
+      "name": "Bowers & Wilkins PX7 S2 Black",
+      "price": 422,
+      "description": "With the Bowers & Wilkins PX7 S2, you can enjoy high-end sound quality, even in the most noisy areas. These headphones have high-end noise canceling, which reduces the ambient noise a lot. Do you start a call with someone? The music pauses automatically when you take off the headphones. If you put the headphones back on your head, the music continues. In the Bowers & Wilkins Headphones app, you can customize the sound reproduction via an equalizer.",
+      "advice": "",
+      "id": 13,
+      "categoryId": 3,
+      "quantity": 40
+    },
+    {
+      "name": "Samsung QLED 55Q80A",
+      "price": 779,
+      "description": "With the Samsung QLED 55Q80A (2021), you watch colorful and high-contrast images. This television has a high brightness and rich color representation thanks to the QLED screen. As a result, subtle color tones in images of a blue sky or cloud field are clearly visible as well. Combined with the Full Array Local Dimming, the QLED screen provides a strong contrast. That means there's a significant difference between the darkest parts of the image and the brightest parts, so shadows are truly dark and light objects stand out against a dark background. For example, a clear moon against a black sky. Thanks to Adaptive Picture, the TV adjusts the image to your viewing situation. Are you watching a dark movie during the day with the curtains open? ",
+      "advice": "",
+      "id": 15,
+      "categoryId": 4,
+      "quantity": 6
+    },
+    {
+      "name": "Samsung Neo QLED 8K 75QN900B (2022) + Soundbar",
+      "price": 7769,
+      "description": "With the Samsung Neo QLED 8K 75QN900B (2022) and HW-Q990B Soundbar, you can create your own home cinema. Thanks to the 8K resolution, every detail is razor sharp. For example, you can easily distinguish people in the audience at a soccer match or the hair of a tiger in a nature documentary. The smart Neo AI Quantum Processor 8K upscales the image to the 8K resolution when you watch images in 4K. Neo QLED technology provides strong contrast and vivid colors. Thousands of LED lights are individually controlled, which makes dark areas of the screen truly dark and bright areas very bright. The quantum dots provide a bright color reproduction and a wide color gamut. So you see every subtle hue in for example a blue sky. Connect all your peripherals to the Slim One Connect Box with a sleek design.",
+      "advice": "",
+      "id": 16,
+      "categoryId": 4,
+      "quantity": 6
+    },
+    {
+      "name": "OnePlus Nord 2T 256GB Gray 5G",
+      "price": 469,
+      "description": "The OnePlus Nord 2T 256GB Gray 5G is a powerful mid-range smartphone that's very fast with average use. For example, you can quickly switch between your apps like Instagram, Spotify, and YouTube. There are 3 cameras at the back which can take decent photos. With the wide-angle lens, you can fit tall buildings or your whole family on the photo. You can store your photos on the 256GB storage, together with all your apps, music, and movies. The 4500mAh battery lasts the whole day with average use. You'll also get a 80W fast charger. This allows you to fully charge the Nord 2T within half an hour. You'll never have to go out with an empty battery. On the 6.43-inch Full HD screen, you can see many details of your videos, movies, and series. This screen refreshes 90 times per second, so the movements look smooth when you scroll.",
+      "advice": "",
+      "categoryId": 1,
+      "id": 17,
+      "quantity": 3
+    },
+    {
+      "name": "Apple iPhone SE 2022 64GB Black",
+      "price": 559,
+      "description": "The Apple iPhone SE 2022 64GB Black has a powerful A15 Bionic Chip. As a result, you can multitask without the device slowing down and you can effortlessly use the most demanding apps. You can also connect via 5G with this iPhone. That way, you have a fast and stable connection in busy places as well. You can only take advantage of this with a SIM card that has a 5G mobile data plan. Don't have one? The iPhone SE 2022 is also suitable for 4G. On the 64GB storage, you have limited space for your favorite apps and photos. Do you want more storage space? Choose the 128 or 256GB version. Thanks to Smart HDR 4 and Deep Fusion, you can take better photos with the 12-megapixel camera than with its predecessor. You unlock the device with your fingerprint via the Touch ID home button.",
+      "advice": "",
+      "categoryId": 1,
+      "id": 111,
+      "quantity": 3
+    },
+    {
+      "name": "Logitech M330 Silent Wireless Mouse Black",
+      "price": 29.99,
+      "description": "You'll no longer be distracted by clicking sounds with the Logitech M330 Silent Wireless Mouse. This mouse has silent buttons with rubber switches that muffle the sound. A click will make 90% less noise compared to a standard mouse while maintaining the familiar clicking motion. Connect the USB nano receiver to your laptop or PC and immediately connect wirelessly to the mouse. Constantly changing the batteries is a thing of the past, because the mouse will work up to 24 months on a single battery. Aren't using the mouse? You don't have to switch it off; the M330 will automatically switch to sleep mode until you use it again.",
+      "advice": "",
+      "id": 112,
+      "quantity": 3
+    }
+  ],
+  "categories": [
+    {
+      "name": "smartphones",
+      "description": "Smartphones are used to make phone calls and send text messages but they can also be used for accessing the internet and check your emails, search the internet and much more. There are many different brands of smartphones e.g.dd",
+      "id": 1
+    },
+    {
+      "name": "Headphones",
+      "description": "Headphones are a pair of small loudspeaker drivers worn on or around the head over a user's ears. They are electroacoustic transducers, which convert an electrical signal to a corresponding sound.",
+      "id": 3
+    },
+    {
+      "name": "Televisions",
+      "description": "A television set (also known as a television receiver or televisor or simply a television, TV set, TV receiver or TV) is a machine with a screen or set of lenses. Televisions receive broadcasting signals and change them into pictures and sound.",
+      "id": 4
+    }
+  ]
+}

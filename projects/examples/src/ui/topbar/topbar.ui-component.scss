@@ -1,0 +1,15 @@
+@import '../../variables';
+
+:host {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 30px;
+  background: $shoppie-color__accent;
+  color: $shoppie-color__white;
+  padding: $shoppie__gridunit;
+
+  button {
+    margin-left: $shoppie__gridunit * 2;
+  }
+}

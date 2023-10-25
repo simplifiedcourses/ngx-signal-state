@@ -1,0 +1,19 @@
+@import '../../variables';
+
+.shoppie-btn {
+  border: 1px solid $shoppie-color__accent;
+  padding: $shoppie__gridunit $shoppie__gridunit * 2;
+  background: $shoppie-color__white;
+  border-radius: $shoppie__gridunit;
+  text-decoration: none;
+  color: $shoppie-color__accent;
+
+  &:hover {
+    background: $shoppie-color__light-grey;
+  }
+
+  &:disabled {
+    border-color: $shoppie-color__grey;
+    color: $shoppie-color__grey;
+  }
+}

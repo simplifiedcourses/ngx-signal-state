@@ -1,0 +1,52 @@
+@import '../../variables';
+
+:host {
+  display: flex;
+  width: 200px;
+
+  .product {
+    position: relative;
+    display: flex;
+    padding: $shoppie__gridunit;
+    border-radius: $shoppie__gridunit * 2;
+
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &__price {
+      position: absolute;
+      right: -10px;
+      top: -10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: $shoppie-color__accent;
+      display: flex;
+      color: $shoppie-color__white;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      padding-top: $shoppie__gridunit;
+      word-wrap: break-word;
+      white-space: normal;
+      padding-bottom: $shoppie__gridunit;
+    }
+
+    flex-direction: column;
+
+    &__image-placeholder {
+      background: $shoppie-color__light-grey;
+      width: 100%;
+      min-height: 50px;
+    }
+
+    border: 1px solid $shoppie-color__accent;
+  }
+}

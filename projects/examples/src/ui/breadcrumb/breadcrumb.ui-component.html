@@ -1,0 +1,9 @@
+<ul class="breadcrumb">
+  <li *ngFor="let breadcrumbItem of breadcrumbItems; let last = last">
+    <a *ngIf="!last" [routerLink]="breadcrumbItem.route"
+      >{{breadcrumbItem.label}}</a
+    >
+    <span *ngIf="last">{{breadcrumbItem.label}}</span>
+    <i *ngIf="!last" class="fa-solid fa-chevron-right"></i>
+  </li>
+</ul>

@@ -11,6 +11,17 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "my-lib": [
+        "dist/my-lib"
+      ],
+      "ngx-signal-state": [
+        "dist/ngx-signal-state"
+      ],
+      "signal-state": [
+        "dist/signal-state"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
