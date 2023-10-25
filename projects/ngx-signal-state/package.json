@@ -1,6 +1,8 @@
 {
   "name": "ngx-signal-state",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "author": "Brecht Billiet",
+  "description": "Opinionated Microsized Simple State management library for Angular",
   "peerDependencies": {
     "@angular/core": "^16.0.0",
     "rxjs": ">=6.0.0",
@@ -10,5 +12,7 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "keywords": ["Angular", "State management", "Signals"],
+  "repository": "https://github.com/simplifiedcourses/ngx-signal-state",
   "sideEffects": false
 }

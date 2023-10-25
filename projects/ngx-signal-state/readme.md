@@ -12,9 +12,3 @@ Todo
 
 Examples of the use of this library can be found in `projects/examples`.
 To start the backend api run `npm run api` and to start the demo application run `npm start`.
-
-
-
-
-
-
