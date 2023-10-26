@@ -1,13 +1,21 @@
 {
   "name": "simplified",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "api": "json-server projects/examples/src/backend/db.json",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prepare": "husky install",
+    "build:app": "ng build examples --configuration=production --base-href=/ngx-signal-state/",
+    "build:lib": "ng build ngx-signal-state --configuration=production",
+    "build:ci": "npm run build:lib && npm run build:app",
+    "postbuild:lib": "copyfiles README.md dist/ngx-signal-state",
+    "test:lib": "ng test ngx-signal-state --no-watch --no-progress --browsers=ChromeHeadlessCI",
+    "test:ci": "npm run test:lib",
+    "semantic-release": "semantic-release"
   },
   "private": true,
   "dependencies": {
@@ -26,16 +34,28 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.0.6",
     "@angular/cli": "~16.0.0",
-    "json-server": "^0.17.0",
     "@angular/compiler-cli": "^16.0.0",
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/jasmine": "~4.3.0",
+    "copyfiles": "^2.4.1",
+    "husky": "^8.0.3",
     "jasmine-core": "~4.6.0",
+    "json-server": "^0.17.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "ng-packagr": "^16.0.0",
+    "semantic-release": "^22.0.5",
+    "semantic-release-cli": "^5.4.4",
     "typescript": "~5.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplifiedcourses/ngx-signal-state.git"
   }
 }

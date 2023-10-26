@@ -5,7 +5,7 @@ import { ShoppingCartEntry } from '../../types/shopping-cart-entry';
 import { Product } from '../../types/product.type';
 import { BreadcrumbItem } from '../../types/breadcrumb-item.type';
 import { BreadcrumbUiComponent } from '../../ui/breadcrumb/breadcrumb.ui-component';
-import { ShoppingCartObservableState } from '../../services/shopping-cart-observable-state';
+import { ShoppingCartSignalState } from '../../services/shopping-cart-signal-state';
 import { ProductService } from '../../services/product.service';
 
 type ShoppingCartSmartComponentState = {
@@ -60,7 +60,7 @@ type ViewModel = {
   styleUrls: ['./shopping-cart.component.scss']
 })
 export class ShoppingCartComponent extends SignalState<ShoppingCartSmartComponentState> {
-  private readonly shoppingCartObservableState = inject(ShoppingCartObservableState);
+  private readonly shoppingCartSignalState = inject(ShoppingCartSignalState);
   private readonly productService = inject(ProductService)
 
   public readonly breadcrumbItems: BreadcrumbItem[] = [
@@ -78,14 +78,14 @@ export class ShoppingCartComponent extends SignalState<ShoppingCartSmartComponen
   constructor() {
     super();
     this.initialize({
-      entries: this.shoppingCartObservableState.snapshot.entries,
+      entries: this.shoppingCartSignalState.snapshot.entries,
       products: [],
     });
     this.connectObservables({
       products: this.productService.getProducts()
     })
     this.connect({
-      ...this.shoppingCartObservableState.pick(['entries']),
+      ...this.shoppingCartSignalState.pick(['entries']),
     })
   }
 
@@ -119,6 +119,6 @@ export class ShoppingCartComponent extends SignalState<ShoppingCartSmartComponen
   }
 
   public updateAmount(event: Event, productId: number): void {
-    this.shoppingCartObservableState.updateAmount(productId, Number((event.target as HTMLInputElement).value));
+    this.shoppingCartSignalState.updateAmount(productId, Number((event.target as HTMLInputElement).value));
   }
 }

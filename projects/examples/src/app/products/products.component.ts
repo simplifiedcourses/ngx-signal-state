@@ -12,7 +12,7 @@ import { PagerUiComponent } from '../pager/pager.component';
 import { ProductService } from '../../services/product.service';
 import { CategoryService } from '../../services/category.service';
 import { FormsModule } from '@angular/forms';
-import { ShoppingCartObservableState } from '../../services/shopping-cart-observable-state';
+import { ShoppingCartSignalState } from '../../services/shopping-cart-signal-state';
 
 type ProductOverviewState = {
   pageIndex: number;
@@ -75,7 +75,7 @@ type ViewModel =
 export class ProductsComponent extends SignalState<ProductOverviewState> {
   private readonly productService = inject(ProductService);
   private readonly categoryService = inject(CategoryService);
-  private readonly shoppingCartState = inject(ShoppingCartObservableState)
+  private readonly shoppingCartState = inject(ShoppingCartSignalState)
   protected readonly breadcrumbItems: BreadcrumbItem[] = [
     {
       label: 'Home',

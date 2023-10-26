@@ -1,0 +1,30 @@
+name: CD
+on:
+  push:
+    branches:
+      - master
+jobs:
+  cd:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ✅
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Setup 🏗
+        uses: actions/setup-node@v2
+        with:
+          node-version: lts/*
+          cache: 'npm'
+      - name: Install ⚙️
+        run: npm ci
+      - name: Build 🛠
+        run: npm run build:ci
+      - name: Test 📋
+        run: npm run test:ci
+      - name: Publish 📢
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release

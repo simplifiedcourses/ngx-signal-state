@@ -11,7 +11,7 @@ export type ShoppingCartState = {
     providedIn: 'root'
   }
 )
-export class ShoppingCartObservableState extends SignalState<ShoppingCartState> {
+export class ShoppingCartSignalState extends SignalState<ShoppingCartState> {
   constructor() {
     super();
     this.initialize({
