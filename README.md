@@ -1,16 +1,16 @@
 # ngx-signal-state: Opinionated Microsized Simple State management for Angular Signals
-![ngx-signal-state.png](..%2Fassets%2Fngx-signal-state.png)
+![ngx-signal-state.png](https://github.com/simplifiedcourses/ngx-signal-state/blob/master/assets/ngx-signal-state.png?raw=true)
 
 | Principle      |     | Description                                                 |
-| -------------- | --- | ----------------------------------------------------------- |
-| Simple         | [x] | Only a handful methods, no complex ngrx structures          |
-| Small          | [x] | Minified and compressed: 2KB                                |
-| Opinionated    | [x] | Structured and opinionated way of state management          |
-| No boilerplate | [x] | No selectors, reducers, actions, action types, effects, ... |
-| Easy to learn  | [x] | Provides everything, but still very small                   |
-| Battle tested  | [x] | Tested with big clients                                     |
-| Type-safe      | [x] | High focus on type-safety                                   |
-| Examples       | [x] | Working on tons of examples as we speak                     |
+| -------------- |-----| ----------------------------------------------------------- |
+| Simple         | Yes | Only a handful methods, no complex ngrx structures          |
+| Small          | Yes | Minified and compressed: 2KB                                |
+| Opinionated    | Yes | Structured and opinionated way of state management          |
+| No boilerplate | Yes | No selectors, reducers, actions, action types, effects, ... |
+| Easy to learn  | Yes | Provides everything, but still very small                   |
+| Battle tested  | Yes | Tested with big clients                                     |
+| Type-safe      | Yes | High focus on type-safety                                   |
+| Examples       | Yes | Working on tons of examples as we speak                     |
 
 ### Why not just use Signals?
 
