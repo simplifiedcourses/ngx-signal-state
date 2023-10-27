@@ -1,6 +1,6 @@
 # ngx-signal-state: Opinionated Microsized Simple State management for Angular Signals
 
-![ngx-signal-state.png](https://github.com/simplifiedcourses/ngx-signal-state/blob/master/assets/ngx-signal-state.png?raw=true)
+![ngx-signal-state.svg](https://github.com/simplifiedcourses/ngx-signal-state/blob/master/assets/ngx-signal-state.svg?raw=true)
 
 | Principle      |     | Description                                                 |
 | -------------- | --- | ----------------------------------------------------------- |
