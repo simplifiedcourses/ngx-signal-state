@@ -339,6 +339,9 @@ However, we can also provide any signal state machine on all levels of the appli
 Examples of the use of this library can be found in `projects/examples` .
 To start the backend api run `npm run api` and to start the demo application run `npm start` .
 
+## Angular Version Compatibility
+* 1.0.0 requires Angular ^16.0.0
+
 ## Collaborate
 
 Do you want to collaborate on this with me?
