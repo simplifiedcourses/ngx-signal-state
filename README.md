@@ -159,7 +159,7 @@ Any signal that we have can be connected to the state. Some examples are:
 
 * Pieces of other state machines (global state)
 * Signals that are provided by Angular (Input signals, query signals, ...)
-* Calculated pieces of signals that are calculated by the `selectManhy()` method
+* Calculated pieces of signals that are calculated by the `selectMany()` method
 
 To connect signals to the state we can use the `connect()` method where we pass a partial object where
 every property is a signal. In the following example we can see that we have a state for a component that has products with
