@@ -5,6 +5,7 @@ import { PagerComponent } from './app/pager/pager.component';
 import { ProductsComponent } from './app/products/products.component';
 import { ShoppingCartComponent } from './app/shopping-cart/shopping-cart.component';
 import { provideHttpClient } from '@angular/common/http';
+import { ProductsWithFacadeComponent } from './app/products-with-facade/products-with-facade.component';
 
 const appRoutes:Routes = [
   {
@@ -19,6 +20,10 @@ const appRoutes:Routes = [
   {
     path: 'products',
     component: ProductsComponent
+  },
+  {
+    path: 'products-with-facade',
+    component: ProductsWithFacadeComponent
   },
   {
     path: 'shopping-cart',

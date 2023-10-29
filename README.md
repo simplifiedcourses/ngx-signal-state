@@ -334,6 +334,86 @@ However, we can also provide any signal state machine on all levels of the appli
 * smart component
 * ui component
 
+## Facade pattern
+
+When creating largescale applications, it's a good idea to abstract the feature libs from the rest of the application.
+In `projects/examples/src/app/products-with-facade/products-with-facade.component.ts`, we can find an example where all the 
+data access logic and global state management is abstracted behind a facade.
+We should take those rules into account:
+- A global state machine should never be injected into a smart component directly
+- We never want to expose all the state
+- We don't want to patch global state directly in a smart component
+- The facade should expose data-access methods
+- The facade should not contain logic
+- Every feature lib should only contain one facade
+
+A slimmed down version looks like this:
+```typescript
+export class ProductsWithFacadeComponent extends SignalState<ProductOverviewState> {
+    private readonly productsFacade = inject(ProductsFacade)
+    ...
+
+    constructor() {
+        super();
+        this.initialize({
+            ...
+            entries: this.productsFacade.shoppingCartSnapshot.entries
+        });
+        this.connectObservables({
+            products: this.productsFacade.getProducts(),
+            categories: this.productsFacade.getCategories(),
+            ...
+        })
+        this.connect({
+            filteredProducts: this.filteredProducts,
+            pagedProducts: this.pagedProducts,
+            ...this.productsFacade.pickFromShoppingCartState(['entries'])
+        })
+    }
+    
+    ...
+    protected addToCard(product: Product): void {
+        this.productsFacade.addToCart({ productId: product.id, amount: 1 });
+    }
+}
+```
+
+Let's create the facade:
+
+```typescript
+@Injectable({ providedIn: 'root' })
+export class ProductsFacade {
+    private readonly productService = inject(ProductService);
+    private readonly categoryService = inject(CategoryService);
+    private readonly shoppingCartState = inject(ShoppingCartSignalState)
+
+    public get shoppingCartSnapshot() {
+        // For pragmatic reasons, expose the snapshot
+        return this.shoppingCartState.snapshot;
+    }
+
+    public pickFromShoppingCartState(keys: (keyof ShoppingCartState)[]): PickedState<ShoppingCartState> {
+        // For pragmatic reasons, expose the pick method
+        return this.shoppingCartState.pick(keys);
+    }
+
+    public getProducts(): Observable<Product[]> {
+        return this.productService.getProducts();
+    }
+
+    public getCategories(): Observable<Category[]> {
+        return this.categoryService.getCategories();
+    }
+
+    // Don't expose the patch method
+    public addToCart(entry: ShoppingCartEntry): void {
+        this.shoppingCartState.addToCart(entry);
+    }
+}
+```
+
+The goal of the facade is abstracting away tools and keeping the smart component ignorant.
+
 ## Examples
 
 Examples of the use of this library can be found in `projects/examples` .

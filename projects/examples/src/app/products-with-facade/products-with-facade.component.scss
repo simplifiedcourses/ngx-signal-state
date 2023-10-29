@@ -1,0 +1,10 @@
+.product-overview {
+  &__content-right-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__content-right-item {
+    margin: 20px;
+  }
+
+}
