@@ -1,6 +1,7 @@
 {
   "name": "simplified",
   "version": "0.0.0-development",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

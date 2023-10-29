@@ -9,11 +9,11 @@ import {
 } from '@angular/core';
 import { Observable, startWith, switchMap } from 'rxjs';
 import { takeUntilDestroyed, toObservable } from '@angular/core/rxjs-interop';
+import { PickedState } from './types';
 
 type Triggers<T> = Partial<{ [P in keyof T]: WritableSignal<number> }>;
 type Signals<T> = { [P in keyof T]: WritableSignal<T[P]> };
 type SpecificKeysOfObj<T> = { [P in keyof T]: T[P] };
-type SpecificKeysOfObjAsSignals<T> = { [P in keyof T]: Signal<T[P]> };
 export const notInitializedError =
   'Signal state is not initialized yet, call the initialize() method before using any other methods';
 @Injectable()
@@ -94,12 +94,12 @@ export class SignalState<T extends Record<string, unknown>> {
    */
   public pick<P extends keyof T>(
     keys: (keyof T)[]
-  ): SpecificKeysOfObjAsSignals<T> {
+  ): PickedState<T> {
     const signals = this.throwOrReturnSignals();
     return keys.reduce((obj, key) => {
       obj[key] = signals[key];
       return obj;
-    }, {} as Partial<SpecificKeysOfObjAsSignals<T>>) as SpecificKeysOfObjAsSignals<T>;
+    }, {} as Partial<PickedState<T>>) as PickedState<T>;
   }
 
   /**
