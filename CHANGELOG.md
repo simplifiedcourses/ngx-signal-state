@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.0...v1.1.1) (2023-11-01)
+
+
+### Bug Fixes
+
+* **ngx-signal-state:** removed carrot from peer deps ([168b26f](https://github.com/simplifiedcourses/ngx-signal-state/commit/168b26f11b15dbb6d8f2800d252057b07c59c2a5)), closes [#9](https://github.com/simplifiedcourses/ngx-signal-state/issues/9)
+
 # [1.1.0](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.0.0...v1.1.0) (2023-10-29)
 
 
