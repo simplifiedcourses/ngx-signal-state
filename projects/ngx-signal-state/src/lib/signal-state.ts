@@ -111,16 +111,16 @@ export class SignalState<T extends Record<string, unknown>> {
    */
   public connect(partial: Partial<{ [P in keyof T]: Signal<T[P]> }>): void {
     this.throwOrReturnSignals();
-    effect(
-      () => {
-        Object.keys(partial).forEach((key: keyof T) => {
+    Object.keys(partial).forEach((key: keyof T) => {
+      effect(
+        () => {
           const v = partial[key] as Signal<keyof T>;
           this.patch({ [key]: v() } as Partial<T>);
-        });
-      },
-      // This will update the state, so we need to allow signal writes
-      { allowSignalWrites: true }
-    );
+        },
+        // This will update the state, so we need to allow signal writes
+        { allowSignalWrites: true }
+      );
+    });
   }
 
   /**
