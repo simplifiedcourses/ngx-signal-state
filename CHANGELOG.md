@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.1...v1.1.2) (2024-04-19)
+
+
+### Bug Fixes
+
+* **connect:** fix issue with connect effect ([82b9bcd](https://github.com/simplifiedcourses/ngx-signal-state/commit/82b9bcdc3162b63988159993b57595e805969a99))
+
 ## [1.1.1](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.0...v1.1.1) (2023-11-01)
 
 
