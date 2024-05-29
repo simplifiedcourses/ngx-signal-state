@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.2...v1.1.3) (2024-05-29)
+
+
+### Bug Fixes
+
+* **pager:** use PagerInputState ([6aed6bb](https://github.com/simplifiedcourses/ngx-signal-state/commit/6aed6bbc7bc58246e56a770f22269746427c4078))
+* typo ([d42b908](https://github.com/simplifiedcourses/ngx-signal-state/commit/d42b908948d803f5edff9b79a28e3108aad834bf))
+
 ## [1.1.2](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.1...v1.1.2) (2024-04-19)
 
 
