@@ -135,7 +135,7 @@ export class PagerUiComponent extends SignalState<PagerState> {
   imports: [CommonModule, PagerUiComponent],
   template: `
     <h1>Pager example</h1>
-    <p>This page show how to deal with local component state for a dumb component and a simple smart component</p>
+    <p>This page shows how to deal with local component state for a dumb component and a simple smart component</p>
     <si-pager
       [pageIndex]="state().pageIndex"
       [itemsPerPage]="state().itemsPerPage"
@@ -146,7 +146,7 @@ export class PagerUiComponent extends SignalState<PagerState> {
   `,
   styleUrls: ['./pager.component.scss']
 })
-export class PagerComponent extends SignalState<{pageIndex: number; itemsPerPage: number; total: number}>{
+export class PagerComponent extends SignalState<PagerInputState> {
   constructor() {
     super();
     this.initialize({
