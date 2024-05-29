@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.3...v1.1.4) (2024-05-29)
+
+
+### Bug Fixes
+
+* **pager:** use this.snapshot ([9b26661](https://github.com/simplifiedcourses/ngx-signal-state/commit/9b2666114f87452c8024f6c57216fe363bc2667f))
+
 ## [1.1.3](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.2...v1.1.3) (2024-05-29)
 
 
