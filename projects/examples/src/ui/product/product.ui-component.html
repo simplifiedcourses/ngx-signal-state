@@ -1,6 +1,6 @@
 <div class="product" *ngIf="product">
   <div class="product__image-placeholder"></div>
-  <h2>{{product?.name}}</h2>
-  <div class="product__price">{{product?.price}}</div>
+  <h2>{{product.name}}</h2>
+  <div class="product__price">{{product.price}}</div>
   <button siButton (click)="add.emit(product)">Add to card</button>
 </div>
