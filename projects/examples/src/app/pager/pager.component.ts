@@ -121,7 +121,7 @@ export class PagerUiComponent extends SignalState<PagerState> {
   }
 
   public goToEnd(): void {
-    this.pageIndexChange.emit(Math.ceil(this.total / this.itemsPerPage) - 1);
+    this.pageIndexChange.emit(Math.ceil(this.snapshot.total / this.snapshot.itemsPerPage) - 1);
   }
 
   public itemsPerPageChanged(option: any): void {
