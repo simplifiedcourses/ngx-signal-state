@@ -146,7 +146,7 @@ export class PagerUiComponent extends SignalState<PagerState> {
   `,
   styleUrls: ['./pager.component.scss']
 })
-export class PagerComponent extends SignalState<{pageIndex: number; itemsPerPage: number; total: number}>{
+export class PagerComponent extends SignalState<PagerInputState> {
   constructor() {
     super();
     this.initialize({
