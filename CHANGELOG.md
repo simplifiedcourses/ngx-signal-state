@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.4...v1.2.0) (2024-06-05)
+
+
+### Features
+
+* **ng upgrade:** upgraded to angular 17 ([f6b8d3a](https://github.com/simplifiedcourses/ngx-signal-state/commit/f6b8d3a3ccc1589a687705c65ee55bf50d0bb966))
+* **ng upgrade:** upgraded to angular 18 ([76847b5](https://github.com/simplifiedcourses/ngx-signal-state/commit/76847b51aafb617ca89817e026af7882474f31b7))
+
 ## [1.1.4](https://github.com/simplifiedcourses/ngx-signal-state/compare/v1.1.3...v1.1.4) (2024-05-29)
 
 
